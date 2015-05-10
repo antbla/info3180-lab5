@@ -1,0 +1,9 @@
+#!/home/action/Info3180/Labs/info3180-lab5/venv/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'setuptools==15.2','console_scripts','easy_install'
+__requires__ = 'setuptools==15.2'
+import sys
+from pkg_resources import load_entry_point
+
+sys.exit(
+   load_entry_point('setuptools==15.2', 'console_scripts', 'easy_install')()
+)
